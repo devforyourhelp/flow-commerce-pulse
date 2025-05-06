@@ -11,7 +11,7 @@ const NotFoundPage = () => {
           The page you're looking for doesn't exist or has been moved.
         </p>
         <Button asChild>
-          <Link to="/">Return to Dashboard</Link>
+          <Link to="/">Return to Health-plus Dashboard</Link>
         </Button>
       </div>
     </div>

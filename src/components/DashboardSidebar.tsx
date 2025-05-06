@@ -61,10 +61,12 @@ export function DashboardSidebar({ activePath = "/" }: DashboardSidebarProps) {
     <Sidebar>
       <SidebarHeader className="px-4 py-6">
         <Link to="/" className="flex items-center gap-2">
-          <div className="rounded-md bg-primary p-1.5">
-            <ShoppingCart className="h-5 w-5 text-white" />
-          </div>
-          <span className="font-semibold text-xl">FlowCommerce</span>
+          <img 
+            src="/lovable-uploads/1e770bc4-6283-4193-a476-304e2636beb8.png" 
+            alt="Health-plus logo" 
+            className="h-8 w-auto" 
+          />
+          <span className="font-semibold text-xl">HealthPlus</span>
         </Link>
         <div className="absolute right-2 top-3 md:hidden">
           <SidebarTrigger />
