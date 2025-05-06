@@ -50,56 +50,56 @@ export interface CategoryData {
   value: number;
 }
 
-// Mock Products
+// Mock Products - Updated for health supplements
 export const mockProducts: Product[] = [
   {
     id: "1",
-    name: "Premium Headphones",
-    category: "Electronics",
-    price: 299.99,
+    name: "Whey Protein Isolate",
+    category: "Protein Supplements",
+    price: 59.99,
     stock: 42,
     status: "in-stock",
-    image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1593095948071-4ba22e83dbdc?q=80&w=200&auto=format&fit=crop",
     sales: 153
   },
   {
     id: "2",
-    name: "Smartphone X Pro",
-    category: "Electronics",
-    price: 899.99,
+    name: "Plant-Based Protein",
+    category: "Protein Supplements",
+    price: 49.99,
     stock: 15,
     status: "low-stock",
-    image: "https://images.unsplash.com/photo-1605236453806-6ff36851218e?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1622485461526-ce0250f36c61?q=80&w=200&auto=format&fit=crop",
     sales: 78
   },
   {
     id: "3",
-    name: "Designer Watch",
-    category: "Accessories",
-    price: 199.99,
+    name: "Pre-Workout Energy Mix",
+    category: "Performance",
+    price: 39.99,
     stock: 0,
     status: "out-of-stock",
-    image: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1612528443702-f6741f70a049?q=80&w=200&auto=format&fit=crop",
     sales: 95
   },
   {
     id: "4",
-    name: "Leather Wallet",
-    category: "Accessories",
-    price: 59.99,
+    name: "Collagen Peptides",
+    category: "Wellness",
+    price: 34.99,
     stock: 124,
     status: "in-stock",
-    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1512069772995-ec65ed45b16e?q=80&w=200&auto=format&fit=crop",
     sales: 204
   },
   {
     id: "5",
-    name: "Smart Home Hub",
-    category: "Electronics",
-    price: 149.99,
+    name: "BCAA Recovery Formula",
+    category: "Amino Acids",
+    price: 29.99,
     stock: 8,
     status: "low-stock",
-    image: "https://images.unsplash.com/photo-1558002038-1055907dc2f7?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1579722821273-0f6c1b5d0b51?q=80&w=200&auto=format&fit=crop",
     sales: 67
   },
 ];

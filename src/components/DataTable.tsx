@@ -1,6 +1,7 @@
 
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { cn } from "@/lib/utils";
+import { ReactNode } from "react";
 
 interface DataTableProps<T> {
   data: T[];
@@ -39,7 +40,7 @@ export function DataTable<T>({ data, columns, className, emptyMessage = "No data
               <TableRow key={index}>
                 {columns.map((column) => (
                   <TableCell key={`${index}-${column.key.toString()}`} className={column.className}>
-                    {column.cell ? column.cell(item) : item[column.key as keyof T]}
+                    {column.cell ? column.cell(item) : String(item[column.key as keyof T])}
                   </TableCell>
                 ))}
               </TableRow>
