@@ -1,4 +1,3 @@
-
 // Mock data for the dashboard
 
 export type ProductStatus = "in-stock" | "low-stock" | "out-of-stock";
@@ -50,7 +49,7 @@ export interface CategoryData {
   value: number;
 }
 
-// Mock Products - Updated for health supplements
+// Mock Products - Updated for health supplements with better images
 export const mockProducts: Product[] = [
   {
     id: "1",
@@ -59,7 +58,7 @@ export const mockProducts: Product[] = [
     price: 59.99,
     stock: 42,
     status: "in-stock",
-    image: "https://images.unsplash.com/photo-1593095948071-4ba22e83dbdc?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1612548403247-aa2873e9422d?q=80&w=400&auto=format&fit=crop",
     sales: 153
   },
   {
@@ -69,7 +68,7 @@ export const mockProducts: Product[] = [
     price: 49.99,
     stock: 15,
     status: "low-stock",
-    image: "https://images.unsplash.com/photo-1622485461526-ce0250f36c61?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1607185073253-54dc8427bd58?q=80&w=400&auto=format&fit=crop",
     sales: 78
   },
   {
@@ -79,7 +78,7 @@ export const mockProducts: Product[] = [
     price: 39.99,
     stock: 0,
     status: "out-of-stock",
-    image: "https://images.unsplash.com/photo-1612528443702-f6741f70a049?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=400&auto=format&fit=crop",
     sales: 95
   },
   {
@@ -89,7 +88,7 @@ export const mockProducts: Product[] = [
     price: 34.99,
     stock: 124,
     status: "in-stock",
-    image: "https://images.unsplash.com/photo-1512069772995-ec65ed45b16e?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1612549584721-fc64997c3172?q=80&w=400&auto=format&fit=crop",
     sales: 204
   },
   {
@@ -99,7 +98,7 @@ export const mockProducts: Product[] = [
     price: 29.99,
     stock: 8,
     status: "low-stock",
-    image: "https://images.unsplash.com/photo-1579722821273-0f6c1b5d0b51?q=80&w=200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1595411425732-e69c1abe47a9?q=80&w=400&auto=format&fit=crop",
     sales: 67
   },
 ];
